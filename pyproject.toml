@@ -1,0 +1,23 @@
+[project]
+name = "taskhub-api"
+version = "0.1.0"
+description = "Api para plataforma de tareas en colaboracion"
+authors = [
+    {name = "Oyhs-co",email = "oyhsotelo@gmail.com"}
+]
+license = {text = "Apache license 2.0"}
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "supabase (>=2.16.0,<3.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "sqlalchemy (>=2.0.41,<3.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
